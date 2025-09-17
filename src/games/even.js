@@ -1,17 +1,14 @@
-import { playGame, generateRandomInt } from '../index.js';
+import playGame from '../index.js';
+import generateRandom from '../utils.js';
 
 const rule = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-const checkIfEven = (num) => {
-  const isEven = num % 2 === 0;
-
-  return isEven ? 'yes' : 'no';
-};
+const isEven = (num) => num % 2 === 0;
 
 const generateGameQuestion = () => {
   const maxRandomInt = 100;
-  const question = generateRandomInt(maxRandomInt);
-  const answer = checkIfEven(question);
+  const question = generateRandom(1, maxRandomInt);
+  const answer = isEven(question) ? 'yes' : 'no';
 
   return {
     question,

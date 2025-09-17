@@ -1,7 +1,7 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/PikylNadin/qa-auto-engineer-javascript-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/PikylNadin/qa-auto-engineer-javascript-project-44/actions)",
+  "description": "Brain Games - это коллекция консольных игр, предлагающих простые математические и логические задачи для тренировки ума.",
   "homepage": "https://github.com/PikylNadin/qa-auto-engineer-javascript-project-44#readme",
   "bugs": {
     "url": "https://github.com/PikylNadin/qa-auto-engineer-javascript-project-44/issues"
