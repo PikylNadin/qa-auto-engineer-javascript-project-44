@@ -42,4 +42,4 @@ brain-progression
 [![asciicast](https://asciinema.org/a/zPyHPTas1rfDeoFy4mKPlxoGW.svg)](https://asciinema.org/a/zPyHPTas1rfDeoFy4mKPlxoGW)
 
 ### brain-prime:
-<a href="https://asciinema.org/a/8EXFT4a6ysRBrH9agWPZOVI0g" target="_blank"><img src="https://asciinema.org/a/8EXFT4a6ysRBrH9agWPZOVI0g.svg" /></a>
+[![asciicast](https://asciinema.org/a/vJartd3rcZfIL5JvFwGua105S.svg)](https://asciinema.org/a/vJartd3rcZfIL5JvFwGua105S)
