@@ -21,7 +21,7 @@ const generateRoundData = () => {
   return {
     question,
     answer,
-  };
+  }
 }
 
 const startGame = () => {
