@@ -27,19 +27,19 @@ brain-progression
 ### Brain Games recordings on asciinema.org
 
 ### Установка и запуск:
-[![asciicast](https://asciinema.org/a/8aJld4GX3810UceAWobO89jKu.svg)](https://asciinema.org/a/8aJld4GX3810UceAWobO89jKu)
+[![asciicast](https://asciinema.org/a/dRtSNGsPvfL3wn6UCxWHYyfzX.svg)](https://asciinema.org/a/dRtSNGsPvfL3wn6UCxWHYyfzX)
 
 ### brain-even:
-[![asciicast](https://asciinema.org/a/G7dnztuLTGuQxlSVHzF6gp9ND.svg)](https://asciinema.org/a/G7dnztuLTGuQxlSVHzF6gp9ND)
+[![asciicast](https://asciinema.org/a/9mtR9N64DRqW5kPpBugPuqxW4.svg)](https://asciinema.org/a/9mtR9N64DRqW5kPpBugPuqxW4)
 
 ### brain-calc:
-[![asciicast](https://asciinema.org/a/0mmtM6HMCmWZdKvV6IVrdMJWO.svg)](https://asciinema.org/a/0mmtM6HMCmWZdKvV6IVrdMJWO)
+[![asciicast](https://asciinema.org/a/XE33MsoQyuBh3S4pn2vSuIWJO.svg)](https://asciinema.org/a/XE33MsoQyuBh3S4pn2vSuIWJO)
 
 ### brain-gcd:
-[![asciicast](https://asciinema.org/a/XuD4bSVwjYKLxlQCDa8CmARW5.svg)](https://asciinema.org/a/XuD4bSVwjYKLxlQCDa8CmARW5)
+[![asciicast](https://asciinema.org/a/h6kc1APmduE0GPTEopofbCakJ.svg)](https://asciinema.org/a/h6kc1APmduE0GPTEopofbCakJ)
 
 ### brain-progression:
-[![asciicast](https://asciinema.org/a/zPyHPTas1rfDeoFy4mKPlxoGW.svg)](https://asciinema.org/a/zPyHPTas1rfDeoFy4mKPlxoGW)
+[![asciicast](https://asciinema.org/a/gE4LZceMLMUM550w98EFRc2Hn.svg)](https://asciinema.org/a/gE4LZceMLMUM550w98EFRc2Hn)
 
 ### brain-prime:
-[![asciicast](https://asciinema.org/a/vJartd3rcZfIL5JvFwGua105S.svg)](https://asciinema.org/a/vJartd3rcZfIL5JvFwGua105S)
+[![asciicast](https://asciinema.org/a/OKhhrg9r7xuufaw1QPu9nyhe7.svg)](https://asciinema.org/a/OKhhrg9r7xuufaw1QPu9nyhe7)
