@@ -8,18 +8,18 @@ const playGame = (gameQuestionFunc, gameRule) => {
   console.log(gameRule);
 
   for (let i = 0; i < roundsNum; i += 1) {
-    const { question, answer } = gameQuestionFunc();        
-    console.log(`Question: ${question}`);    
+    const { question, answer } = gameQuestionFunc();
+    console.log(`Question: ${question}`);
     const userAnswer = readlineSync.question('Your answer: ').toLowerCase();
 
-    if (userAnswer === String(answer)) {
+    if (userAnswer === answer) {
       console.log('Correct!');
     } else {
-      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${answer}'.`);
+      console.log(`'${userAnswer}' is wrong answer :(. Correct answer was '${answer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
-    };
-  };
+    }
+  }
 
   console.log(`Congratulations, ${userName}!`);
 };

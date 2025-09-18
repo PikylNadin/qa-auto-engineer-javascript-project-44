@@ -8,7 +8,7 @@ const generateProgression = (start, step, length) => {
   const progression = [];
   for (let i = 0; i < length; i += 1) {
     progression.push(start + i * step);
-  };
+  }
   return progression;
 };
 
@@ -17,7 +17,7 @@ const generateRoundData = () => {
   const step = generateRandom(2, 5);
   const hiddenElementIndex = generateRandom(0, progressionLength - 1);
   const progression = generateProgression(start, step, progressionLength);
-  const answer = progression[hiddenElementIndex];
+  const answer = String(progression[hiddenElementIndex]);
   progression[hiddenElementIndex] = '..';
   const question = progression.join(' ');
 

@@ -22,11 +22,11 @@ const generateGameQuestion = () => {
   const num1 = generateRandom(1, maxNum);
   const num2 = generateRandom(1, maxNum);
   const operator = getOperator();
-  const answer = calc(operator, num1, num2);
+  const answer = String(calc(operator, num1, num2));
 
   return {
     question: `${num1} ${operator} ${num2}`,
-    answer: answer,
+    answer,
   };
 };
 
