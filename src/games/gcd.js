@@ -2,25 +2,24 @@ import playGame from '../index.js'
 import generateRandom from '../utils.js'
 
 const rule = 'Find the greatest common divisor of given numbers.'
+const maxNum = 100
 
 const findGCD = (num1, num2) => {
-  while (num2) {
-    const temp = num2
-    num2 = num1 % num2
-    num1 = temp
+  if (num2 === 0) {
+    return num1
   }
-  return num1
+  return findGCD(num2, num1 % num2)
 }
 
 const generateRoundData = () => {
-  const number1 = generateRandom(1, 100)
-  const number2 = generateRandom(1, 100)
+  const number1 = generateRandom(1, maxNum)
+  const number2 = generateRandom(1, maxNum)
   const question = `${number1} ${number2}`
-  const answer = String(findGCD(number1, number2))
+  const correctAnswer = String(findGCD(number1, number2))
 
   return {
-    question,
-    answer,
+    question: question,
+    correctAnswer: correctAnswer,
   }
 }
 

@@ -2,16 +2,17 @@ import playGame from '../index.js'
 import generateRandom from '../utils.js'
 
 const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-
-const minRandomInt = 1
-const maxRandomInt = 100
+const minNum = 0
+const maxNum = 100
 
 const isPrime = (num) => {
   if (num <= 1) {
     return false
   }
 
-  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+  const limit = Math.sqrt(num);
+
+  for (let i = 2; i <= limit; i += 1) {
     if (num % i === 0) {
       return false
     }
@@ -21,14 +22,14 @@ const isPrime = (num) => {
 }
 
 const generateGameQuestion = () => {
-  const question = generateRandom(maxRandomInt, minRandomInt)
-  const answer = isPrime(question) ? 'yes' : 'no'
+    const question = generateRandom(minNum, maxNum)
+    const correctAnswer = isPrime(question) ? 'yes' : 'no'
 
-  return {
-    question,
-    answer,
+    return {
+      question: question,
+      correctAnswer: correctAnswer,
+    }
   }
-}
 
 const playBrainPrime = () => {
   playGame(generateGameQuestion, rule)

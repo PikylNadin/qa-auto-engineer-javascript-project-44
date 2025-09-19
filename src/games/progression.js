@@ -3,6 +3,10 @@ import generateRandom from '../utils.js'
 
 const rule = 'What number is missing in the progression?'
 const progressionLength = 10
+const minStart = 1
+const maxStart = 20
+const minStep = 2
+const maxStep = 5
 
 const generateProgression = (start, step, length) => {
   const progression = []
@@ -13,17 +17,17 @@ const generateProgression = (start, step, length) => {
 }
 
 const generateRoundData = () => {
-  const start = generateRandom(1, 20)
-  const step = generateRandom(2, 5)
-  const hiddenElementIndex = generateRandom(0, progressionLength - 1)
+  const start = generateRandom(minStart, maxStart)
+  const step = generateRandom(minStep, maxStep)
   const progression = generateProgression(start, step, progressionLength)
-  const answer = String(progression[hiddenElementIndex])
+  const hiddenElementIndex = generateRandom(0, progression.length - 1)
+  const correctAnswer = String(progression[hiddenElementIndex])
   progression[hiddenElementIndex] = '..'
   const question = progression.join(' ')
 
   return {
-    question,
-    answer,
+    question: question,
+    correctAnswer: correctAnswer,
   }
 }
 
