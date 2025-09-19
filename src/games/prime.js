@@ -10,7 +10,7 @@ const isPrime = (num) => {
     return false
   }
 
-  const limit = Math.sqrt(num);
+  const limit = Math.sqrt(num)
 
   for (let i = 2; i <= limit; i += 1) {
     if (num % i === 0) {
@@ -22,14 +22,14 @@ const isPrime = (num) => {
 }
 
 const generateGameQuestion = () => {
-    const question = generateRandom(minNum, maxNum)
-    const correctAnswer = isPrime(question) ? 'yes' : 'no'
+  const question = generateRandom(minNum, maxNum)
+  const correctAnswer = isPrime(question) ? 'yes' : 'no'
 
-    return {
-      question: question,
-      correctAnswer: correctAnswer,
-    }
+  return {
+    question: question,
+    correctAnswer: correctAnswer,
   }
+}
 
 const playBrainPrime = () => {
   playGame(generateGameQuestion, rule)
